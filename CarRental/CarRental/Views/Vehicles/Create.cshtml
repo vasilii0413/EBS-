@@ -1,0 +1,70 @@
+﻿@model CarRental.Models.Vehicle
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Vehicle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input required asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleType" class="control-label"></label>
+                <select asp-for="VehicleTypeId" class="form-control" asp-items="ViewBag.VehicleTypes"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="BodyType" class="control-label"></label>
+                <select asp-for="BodyTypeId" class="form-control" asp-items="ViewBag.BodyTypes"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Transmission" class="control-label"></label>
+                <select asp-for="TransmissionId" class="form-control" asp-items="ViewBag.Transmissions"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seats" class="control-label"></label>
+                <input required min="1" asp-for="Seats" class="form-control" />
+                <span asp-validation-for="Seats" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fuel" class="control-label"></label>
+                <select asp-for="FuelId" class="form-control" asp-items="ViewBag.Fuels"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeOfDriving" class="control-label"></label>
+                <select asp-for="DriveTypeId" class="form-control" asp-items="ViewBag.DriveTypes"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Year" class="control-label"></label>
+                <input required min="4" asp-for="Year" class="form-control" />
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DailyPrice" class="control-label"></label>
+                <input required min="2" asp-for="DailyPrice" class="form-control" />
+                <span asp-validation-for="DailyPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input required  asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group"><br />
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+     
+    <a asp-controller="Vehicles" asp-action="ManageCars">Back to List</a>
+</div>

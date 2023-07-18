@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CarRental.Models.Fuel>
+
+@{
+    ViewData["Title"] = "Fuel";
+}
+
+<h1>Fuel</h1>
+
+<div class="text-right">
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.FuelType)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-primary">
+                <td class="blockquote">
+                    @Html.DisplayFor(modelItem => item.FuelId)
+                    @Html.DisplayFor(modelItem => item.FuelType)
+                </td>
+                <td>
+                    <div class="btn-group">
+                        <a asp-action="Edit" asp-route-id="@item.FuelId" class="btn btn-primary">Edit</a>
+@* s                       <a asp-action="Details" asp-route-id="@item.FuelId" class="btn btn-primary">Details</a>*@
+                     <a asp-action="Delete" asp-route-id="@item.FuelId" class="btn btn-danger">Delete</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
