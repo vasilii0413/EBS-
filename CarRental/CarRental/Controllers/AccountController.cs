@@ -37,7 +37,7 @@ namespace CarRental.Controllers
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
-                await _userManager.AddToRoleAsync(user, "User");
+                //await _userManager.AddToRoleAsync(user, "User");
 
                 if (result.Succeeded)
                 {
