@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Rental>
+
+@{
+    ViewData["Title"] = "Rental";
+}
+
+<h1>List Of Rents</h1>
+<style>
+
+    tbody tr:hover {
+        background-color: #ffff99;
+    }
+
+    td {
+        padding: 10px 0;
+        width:100px;
+    }
+
+    tr {
+        text-align: center;
+    }
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReturnDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ReservationStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RentalDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReturnDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehicle.Name)
+            </td> 
+            <td>
+                @Html.DisplayFor(modelItem => item.ReservationStatus.Status)
+            </td>
+            <td>
+                <a class="btn btn-primary" asp-action="EditRental" asp-route-id="@item.RentalId">Edit</a> 
+                <a class="btn btn-danger" asp-action="DeleteRental" asp-route-id="@item.RentalId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

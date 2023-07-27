@@ -1,0 +1,61 @@
+﻿@model Rental
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Rental</h4>
+@if (!User.IsInRole("Admin"))
+{
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="CreateRental" id="rentalForm">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group d-none">
+                    <label asp-for="UserId" class="control-label"></label>
+                    <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="RentalDate" class="control-label"></label>
+                    <input asp-for="RentalDate" class="form-control" type="datetime-local" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                    <span asp-validation-for="RentalDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ReturnDate" class="control-label"></label>
+                    <input asp-for="ReturnDate" class="form-control" type="datetime-local" min="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" />
+                    <span asp-validation-for="ReturnDate" class="text-danger"></span>
+                </div>
+                <div class="form-group d-none">
+                    <label type="hidden" asp-for="VehicleId" class="control-label"></label>
+                    <input type="hidden" class="form-control" asp-for="VehicleId" value="@ViewData["VehicleId"]" />
+                </div>
+                <div class="form-group d-none">
+                    <label asp-for="ReservationId" class="control-label"></label>
+                    <select asp-for="ReservationId" class="form-control" asp-items="ViewBag.ReservationId"></select>
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <div>
+        <a asp-action="IndexRental" class="btn btn-primary">To List of Orders</a>
+    </div>
+}
+
+<script>
+    document.getElementById("rentalForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("The rental process has been completed successfully. Soon we will send the contract to you via email to see all details.");
+        event.target.submit(); 
+    });
+</script>

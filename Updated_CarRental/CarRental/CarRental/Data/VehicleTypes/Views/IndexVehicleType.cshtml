@@ -1,0 +1,39 @@
+﻿@using CarRental.Data.VehicleTypes;
+@model IEnumerable<VehicleType>
+
+@{
+    ViewData["Title"] = "Vehicle Types";
+}
+
+<h1>Vehicle Types</h1>
+
+<div class="text-right">
+    <a asp-action="CreateVehicleType" class="btn btn-primary">Create New</a>
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.VehicleTypeName)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="table-primary">
+                <td class="blockquote">
+                @Html.DisplayFor(modelItem => item.VehicleTypeId)
+                @Html.DisplayFor(modelItem => item.VehicleTypeName)
+            </td>
+            <td>
+                <div class="btn-group">
+                        <a asp-action="EditVehicleType" asp-route-id="@item.VehicleTypeId" class="btn btn-primary">Edit</a>
+                        @*<a asp-action="DetailsVehicleType" asp-route-id="@item.VehicleTypeId">Details</a> |*@
+                        <a asp-action="DeleteVehicleType" asp-route-id="@item.VehicleTypeId" class="btn btn-danger">Delete</a>
+                    </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

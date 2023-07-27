@@ -1,0 +1,39 @@
+﻿@using CarRental.Data.BodyType;
+@model IEnumerable<BodyType>
+
+@{
+    ViewData["Title"] = "Body Types";
+}
+
+<h1>Body Types</h1>
+
+<div class="text-right">
+    <a asp-action="CreateBody" class="btn btn-primary">Create New</a>
+</div>
+<table class="table table-hober">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.Body)*@
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="table-primary">
+                <td class="blockquote">
+                @Html.DisplayFor(modelItem => item.BodyTypeId)
+                @Html.DisplayFor(modelItem => item.Body)
+            </td>
+            <td>
+                <div class="btn-group">
+                <a asp-action="EditBody" asp-route-id="@item.BodyTypeId"class="btn btn-primary">Edit</a> 
+                @*<a asp-action="Details" asp-route-id="@item.BodyTypeId">Details</a>*@ 
+                <a asp-action="DeleteBody" asp-route-id="@item.BodyTypeId" class="btn btn-danger">Delete</a>
+            </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

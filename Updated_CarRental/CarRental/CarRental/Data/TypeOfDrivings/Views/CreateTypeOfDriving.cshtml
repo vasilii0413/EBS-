@@ -1,0 +1,37 @@
+﻿@using CarRental.Data.TypeOfDrivings;
+@model TypeOfDriving
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TypeOfDriving</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateTypeOfDriving">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DriveTypeId" class="control-label"></label>
+                <input asp-for="DriveTypeId" class="form-control" />
+                <span asp-validation-for="DriveTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeDrive" class="control-label"></label>
+                <input asp-for="TypeDrive" class="form-control" />
+                <span asp-validation-for="TypeDrive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <br />
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="IndexTypeOfDriving">Back to List</a>
+</div>
+

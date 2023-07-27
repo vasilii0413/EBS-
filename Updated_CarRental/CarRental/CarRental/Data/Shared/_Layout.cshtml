@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CarRental</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CarRental.styles.css" asp-append-version="true" />
+    <style>
+        .navbar-toggler {
+            padding: 0.25rem 0.75rem;
+            font-size: 1.25rem;
+            line-height: 1;
+            background-color: #ffffff;
+            border: 1px solid transparent;
+            border-radius: 0.25rem;
+            transition: box-shadow .15s ease-in-out;
+        }
+
+        .navbar {
+            padding: 0 16px 16px;
+            z-index: 1000;
+            margin-bottom: 0;
+            min-height: var(--header-height, 40px);
+            border: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+
+            .navbar .container-fluid {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+        body {
+            padding-top: calc(var(--header-height, 40px) + 16px);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark box-shadow @*mb-3*@">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">CarRental</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Vehicles" asp-action="IndexVehicle">Cars</a>
+                            </li>
+                            @if (User.IsInRole("Admin"))
+                            {
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="Vehicles" asp-action="ManageCars">Manage Cars</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
+                                    <div class="dropdown-menu" style="">
+                                        <a class="dropdown-item" asp-controller="VehicleTypes" asp-action="IndexVehicleType">Vehicle Type</a>
+                                        <a class="dropdown-item" asp-controller="Transmissions" asp-action="IndexTransmission">Transmission Type</a>
+                                        <a class="dropdown-item" asp-controller="ReservationStatus" asp-action="IndexReservation">Reservation Status</a>
+                                        <a class="dropdown-item" asp-controller="Fuels" asp-action="IndexFuel">Fuel</a>
+                                        <a class="dropdown-item" asp-controller="TypeOfDrivings" asp-action="IndexTypeOfDriving">Drive Type</a>
+                                        <a class="dropdown-item" asp-controller="BodyTypes" asp-action="IndexBody">Car Body</a>
+                                    </div>
+                                </li>
+                            }
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Logout">Logout</a>
+                            </li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Vehicles" asp-action="Index">Cars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                            </li>
+                        </ul>
+                    }
+                    <form class="d-flex" id="searchForm" onsubmit="searchCars(event)">
+                        <input id="searchInput" class="form-control me-sm-2 bg-light text-dark" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted text-light">
+        <div class="container text-dark">
+            &copy; 2023 - CarRental
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+<script>
+    function searchCars(event) {
+        event.preventDefault();
+
+        var searchQuery = document.getElementById("searchInput").value.trim().toLowerCase();
+        var carNames = document.getElementsByClassName("car-name");
+
+        for (var i = 0; i < carNames.length; i++) {
+            var carName = carNames[i].textContent.toLowerCase();
+            var carCard = carNames[i].closest(".col-md-4");
+
+            if (carName.includes(searchQuery)) {
+                carCard.style.display = "block";
+            } else {
+                carCard.style.display = "none";
+            }
+        }
+    }
+</script>

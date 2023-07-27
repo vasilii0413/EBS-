@@ -1,0 +1,25 @@
+﻿@using CarRental.Data.VehicleTypes;
+@model VehicleType
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>VehicleType</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VehicleTypeName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VehicleTypeName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="EditVehicleType" asp-route-id="@Model?.VehicleTypeId">Edit</a> |
+    <a asp-action="IndexVehicleType">Back to List</a>
+</div>
