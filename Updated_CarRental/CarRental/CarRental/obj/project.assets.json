@@ -11634,11 +11634,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasea\\Desktop\\CarRental\\CarRental\\CarRental.csproj",
+      "projectUniqueName": "E:\\Internship\\CQRS_MediatR_LazyCache_VerticalSlice\\CarRental\\CarRental\\CarRental.csproj",
       "projectName": "CarRental",
-      "projectPath": "C:\\Users\\vasea\\Desktop\\CarRental\\CarRental\\CarRental.csproj",
+      "projectPath": "E:\\Internship\\CQRS_MediatR_LazyCache_VerticalSlice\\CarRental\\CarRental\\CarRental.csproj",
       "packagesPath": "C:\\Users\\vasea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasea\\Desktop\\CarRental\\CarRental\\obj\\",
+      "outputPath": "E:\\Internship\\CQRS_MediatR_LazyCache_VerticalSlice\\CarRental\\CarRental\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

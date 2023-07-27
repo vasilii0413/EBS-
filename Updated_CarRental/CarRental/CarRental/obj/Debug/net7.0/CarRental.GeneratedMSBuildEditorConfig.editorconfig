@@ -9,209 +9,209 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRental
 build_property.RootNamespace = CarRental
-build_property.ProjectDir = C:\Users\vasea\Desktop\CarRental\CarRental\
+build_property.ProjectDir = E:\Internship\CQRS_MediatR_LazyCache_VerticalSlice\CarRental\CarRental\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\vasea\Desktop\CarRental\CarRental
+build_property.MSBuildProjectDirectory = E:\Internship\CQRS_MediatR_LazyCache_VerticalSlice\CarRental\CarRental
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Account/Views/Login.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Account/Views/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxBY2NvdW50XFZpZXdzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Account/Views/Register.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Account/Views/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxBY2NvdW50XFZpZXdzXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/BodyTypes/Views/CreateBody.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/BodyTypes/Views/CreateBody.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxCb2R5VHlwZXNcVmlld3NcQ3JlYXRlQm9keS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/BodyTypes/Views/DeleteBody.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/BodyTypes/Views/DeleteBody.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxCb2R5VHlwZXNcVmlld3NcRGVsZXRlQm9keS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/BodyTypes/Views/DetailsBody.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/BodyTypes/Views/DetailsBody.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxCb2R5VHlwZXNcVmlld3NcRGV0YWlsc0JvZHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/BodyTypes/Views/EditBody.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/BodyTypes/Views/EditBody.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxCb2R5VHlwZXNcVmlld3NcRWRpdEJvZHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/BodyTypes/Views/IndexBody.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/BodyTypes/Views/IndexBody.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxCb2R5VHlwZXNcVmlld3NcSW5kZXhCb2R5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Fuels/Views/CreateFuel.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Fuels/Views/CreateFuel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxGdWVsc1xWaWV3c1xDcmVhdGVGdWVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Fuels/Views/DeleteFuel.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Fuels/Views/DeleteFuel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxGdWVsc1xWaWV3c1xEZWxldGVGdWVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Fuels/Views/DetailsFuel.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Fuels/Views/DetailsFuel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxGdWVsc1xWaWV3c1xEZXRhaWxzRnVlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Fuels/Views/EditFuel.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Fuels/Views/EditFuel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxGdWVsc1xWaWV3c1xFZGl0RnVlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Fuels/Views/IndexFuel.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Fuels/Views/IndexFuel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxGdWVsc1xWaWV3c1xJbmRleEZ1ZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Home/Views/Index.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Home/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxIb21lXFZpZXdzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Home/Views/Privacy.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Home/Views/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxIb21lXFZpZXdzXFByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Rentals/Views/CreateRental.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Rentals/Views/CreateRental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZW50YWxzXFZpZXdzXENyZWF0ZVJlbnRhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Rentals/Views/DeleteRental.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Rentals/Views/DeleteRental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZW50YWxzXFZpZXdzXERlbGV0ZVJlbnRhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Rentals/Views/DetailsRental.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Rentals/Views/DetailsRental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZW50YWxzXFZpZXdzXERldGFpbHNSZW50YWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Rentals/Views/EditRental.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Rentals/Views/EditRental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZW50YWxzXFZpZXdzXEVkaXRSZW50YWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Rentals/Views/IndexRental.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Rentals/Views/IndexRental.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZW50YWxzXFZpZXdzXEluZGV4UmVudGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/ReservationStatus/Views/CreateReservation.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/ReservationStatus/Views/CreateReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZXNlcnZhdGlvblN0YXR1c1xWaWV3c1xDcmVhdGVSZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/ReservationStatus/Views/DeleteReservation.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/ReservationStatus/Views/DeleteReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZXNlcnZhdGlvblN0YXR1c1xWaWV3c1xEZWxldGVSZXNlcnZhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/ReservationStatus/Views/DetailsReservation.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/ReservationStatus/Views/DetailsReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZXNlcnZhdGlvblN0YXR1c1xWaWV3c1xEZXRhaWxzUmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/ReservationStatus/Views/EditReservation.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/ReservationStatus/Views/EditReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZXNlcnZhdGlvblN0YXR1c1xWaWV3c1xFZGl0UmVzZXJ2YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/ReservationStatus/Views/IndexReservation.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/ReservationStatus/Views/IndexReservation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxSZXNlcnZhdGlvblN0YXR1c1xWaWV3c1xJbmRleFJlc2VydmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Shared/Error.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxTaGFyZWRcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Transmissions/Views/CreateTransmission.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Transmissions/Views/CreateTransmission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUcmFuc21pc3Npb25zXFZpZXdzXENyZWF0ZVRyYW5zbWlzc2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Transmissions/Views/DeleteTransmission.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Transmissions/Views/DeleteTransmission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUcmFuc21pc3Npb25zXFZpZXdzXERlbGV0ZVRyYW5zbWlzc2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Transmissions/Views/DetailsTransmission.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Transmissions/Views/DetailsTransmission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUcmFuc21pc3Npb25zXFZpZXdzXERldGFpbHNUcmFuc21pc3Npb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Transmissions/Views/EditTransmission.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Transmissions/Views/EditTransmission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUcmFuc21pc3Npb25zXFZpZXdzXEVkaXRUcmFuc21pc3Npb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Transmissions/Views/IndexTransmission.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Transmissions/Views/IndexTransmission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUcmFuc21pc3Npb25zXFZpZXdzXEluZGV4VHJhbnNtaXNzaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/TypeOfDrivings/Views/CreateTypeOfDriving.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/TypeOfDrivings/Views/CreateTypeOfDriving.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUeXBlT2ZEcml2aW5nc1xWaWV3c1xDcmVhdGVUeXBlT2ZEcml2aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/TypeOfDrivings/Views/DeleteTypeOfDriving.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/TypeOfDrivings/Views/DeleteTypeOfDriving.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUeXBlT2ZEcml2aW5nc1xWaWV3c1xEZWxldGVUeXBlT2ZEcml2aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/TypeOfDrivings/Views/DetailsTypeOfDriving.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/TypeOfDrivings/Views/DetailsTypeOfDriving.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUeXBlT2ZEcml2aW5nc1xWaWV3c1xEZXRhaWxzVHlwZU9mRHJpdmluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/TypeOfDrivings/Views/EditTypeOfDriving.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/TypeOfDrivings/Views/EditTypeOfDriving.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUeXBlT2ZEcml2aW5nc1xWaWV3c1xFZGl0VHlwZU9mRHJpdmluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/TypeOfDrivings/Views/IndexTypeOfDriving.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/TypeOfDrivings/Views/IndexTypeOfDriving.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxUeXBlT2ZEcml2aW5nc1xWaWV3c1xJbmRleFR5cGVPZkRyaXZpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/CreateVehicle.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/CreateVehicle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xDcmVhdGVWZWhpY2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/DeleteVehicle.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/DeleteVehicle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xEZWxldGVWZWhpY2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/DetailsVehicle.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/DetailsVehicle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xEZXRhaWxzVmVoaWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/EditVehicle.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/EditVehicle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xFZGl0VmVoaWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/IndexVehicle.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/IndexVehicle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xJbmRleFZlaGljbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Vehicles/Views/ManageCars.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Vehicles/Views/ManageCars.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlc1xWaWV3c1xNYW5hZ2VDYXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/VehicleTypes/Views/CreateVehicleType.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/VehicleTypes/Views/CreateVehicleType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlVHlwZXNcVmlld3NcQ3JlYXRlVmVoaWNsZVR5cGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/VehicleTypes/Views/DeleteVehicleType.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/VehicleTypes/Views/DeleteVehicleType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlVHlwZXNcVmlld3NcRGVsZXRlVmVoaWNsZVR5cGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/VehicleTypes/Views/DetailsVehicleType.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/VehicleTypes/Views/DetailsVehicleType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlVHlwZXNcVmlld3NcRGV0YWlsc1ZlaGljbGVUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/VehicleTypes/Views/EditVehicleType.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/VehicleTypes/Views/EditVehicleType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlVHlwZXNcVmlld3NcRWRpdFZlaGljbGVUeXBlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/VehicleTypes/Views/IndexVehicleType.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/VehicleTypes/Views/IndexVehicleType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxWZWhpY2xlVHlwZXNcVmlld3NcSW5kZXhWZWhpY2xlVHlwZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/_ViewImports.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/_ViewStart.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vasea/Desktop/CarRental/CarRental/Data/Shared/_Layout.cshtml]
+[E:/Internship/CQRS_MediatR_LazyCache_VerticalSlice/CarRental/CarRental/Data/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = RGF0YVxTaGFyZWRcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-p9dgyvho2k
