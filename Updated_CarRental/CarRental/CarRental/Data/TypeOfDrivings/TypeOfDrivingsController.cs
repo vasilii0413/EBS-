@@ -5,6 +5,8 @@ using MediatR;
 using LazyCache;
 using CarRental.Data.TypeOfDrivings.Queries;
 using CarRental.Data.TypeOfDrivings.Commands;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace CarRental.Data.TypeOfDrivings
 {
@@ -20,6 +22,7 @@ namespace CarRental.Data.TypeOfDrivings
             _mediator = mediator;
             _cache = cache;
         }
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> IndexTypeOfDriving()
         {

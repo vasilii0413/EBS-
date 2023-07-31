@@ -5,6 +5,8 @@ using CarRental.Models.AppDBContext;
 using MediatR;
 using CarRental.Data.Vehicles.Queries;
 using CarRental.Data.Vehicles.Commands;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace CarRental.Data.Vehicles
 {
@@ -18,6 +20,7 @@ namespace CarRental.Data.Vehicles
             _context = context;
             _mediator = mediator;
         }
+
 
         public async Task<IActionResult> IndexVehicle()
         {

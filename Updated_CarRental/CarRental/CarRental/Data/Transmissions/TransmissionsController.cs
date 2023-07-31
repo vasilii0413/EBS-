@@ -5,6 +5,7 @@ using System.Data;
 using LazyCache;
 using CarRental.Data.Transmissions.Queries;
 using CarRental.Data.Transmissions.Commands;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarRental.Data.Transmissions
 {
@@ -21,6 +22,7 @@ namespace CarRental.Data.Transmissions
             _cache = cache;
         }
 
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> IndexTransmission()
         {

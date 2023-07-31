@@ -5,6 +5,8 @@ using MediatR;
 using LazyCache;
 using CarRental.Data.Fuel.Queries;
 using CarRental.Data.Fuel.Commands;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace CarRental.Data.Fuel
 {
@@ -20,6 +22,8 @@ namespace CarRental.Data.Fuel
             _mediator = mediator;
             _cache = cache;
         }
+
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> IndexFuel()
         {

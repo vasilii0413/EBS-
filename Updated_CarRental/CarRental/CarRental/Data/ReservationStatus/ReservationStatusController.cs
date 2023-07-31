@@ -5,6 +5,8 @@ using MediatR;
 using LazyCache;
 using CarRental.Data.ReservationStatus.Commands;
 using CarRental.Data.ReservationStatus.Queries;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace CarRental.Data.ReservationStatus
 {
@@ -21,6 +23,7 @@ namespace CarRental.Data.ReservationStatus
             _cache = cache;
         }
 
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> IndexReservation()
         {

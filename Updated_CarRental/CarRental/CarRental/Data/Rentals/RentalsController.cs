@@ -23,7 +23,7 @@ namespace CarRental.Data.Rentals
             _mediator = mediator;
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> IndexRental()
         {
             List<Rental> rentals = await _mediator.Send(new GetAllRentalsQuery());

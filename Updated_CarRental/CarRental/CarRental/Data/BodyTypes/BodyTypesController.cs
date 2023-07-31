@@ -5,6 +5,7 @@ using MediatR;
 using LazyCache;
 using CarRental.Data.BodyType.Queries;
 using CarRental.Data.BodyType.Commands;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CarRental.Data.BodyType
 {
@@ -21,6 +22,7 @@ namespace CarRental.Data.BodyType
             _cache = cache;
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> IndexBody()
         {
             List<BodyType> bodyTypes = await _cache.GetOrAddAsync("AllBodyTypes", async () => await _mediator.Send(new GetAllBodyTypesQuery()));
