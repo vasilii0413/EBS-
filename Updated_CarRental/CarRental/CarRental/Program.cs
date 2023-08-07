@@ -1,11 +1,3 @@
-using CarRental.Data.BodyTypes;
-using CarRental.Data.Fuels;
-using CarRental.Data.Rentals;
-using CarRental.Data.ReservationStatus;
-using CarRental.Data.Transmissions;
-using CarRental.Data.TypeOfDrivings;
-using CarRental.Data.Vehicles;
-using CarRental.Data.VehicleTypes;
 using CarRental.Models.AppDBContext;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -57,16 +49,6 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
-    
-    endpoints.MapVehicleTypesEndpoints();
-    endpoints.MapBodyTypeEndpoints();
-    endpoints.MapFuelEndpoints();
-    endpoints.MapRentalEndpoints();
-    endpoints.MapReservationStatusEndpoints();
-    endpoints.MapTransmissionEndpoints();
-    endpoints.MapTypeOfDrivingsEndpoints();
-    endpoints.MapVehiclesEndpoints();
-
     endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
